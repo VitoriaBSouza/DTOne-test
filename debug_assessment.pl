@@ -81,7 +81,6 @@ sub parse_date {
 sub parse_timeout_seconds {
     my ($details) = @_;
     my ($key, $value) = split /=/, $details;
-    # print "Details after split: $details, key= $key, value= $value\n";
     die "Malformed details field: $details" if !defined $value;
     $value =~ s/s$//;
     return $value + 0;
