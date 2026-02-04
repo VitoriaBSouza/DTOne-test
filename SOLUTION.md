@@ -52,5 +52,4 @@ This allows the details field to correctly contain connection_timeout=30s.
 With this change, the parse_timeout_seconds function no longer throws an error.
 
 ![](media/image-10.png)
-
 To finish I deleted all the prints added by me on the code to leave it clean.
